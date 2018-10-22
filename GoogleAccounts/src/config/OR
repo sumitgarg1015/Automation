@@ -1,0 +1,25 @@
+#Login Page
+txtbox_UserName = //input[@type='email']
+button_Next = //span[text()='Next']
+txtbox_Password = //input[@type='password']
+
+#Account Page
+click_AnotherAccount = //a[@class='gb_Aa gb_Fb']
+image_Google = //a[@aria-label='Search']
+image_mail = //a[@aria-label='Mail']
+image_maps = //a[@aria-label='Maps']
+image_youtube = //a[@aria-label='YouTube']
+
+#Google Page
+txtbox_SearchBox = //input[@name='q']
+button_Submit = //input[@type='submit']
+
+#Email Page
+button_Compose = .//*[text()='Compose']
+txtbox_EmailBody = //div[@aria-label='Message Body']
+txtbox_EmailTo = //textarea[@name='to']
+txtbox_EmailSubject = //input[@name='subjectbox']
+button_Send = //div[contains(@aria-label,'Send')]
+txt_message = .//*[text()='Message sent.']
+image_myAccount = .//*[@class='gb_9a gbii']
+button_SignOut = .//*[text()='Sign out']
